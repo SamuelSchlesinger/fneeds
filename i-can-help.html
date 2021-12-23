@@ -1,0 +1,43 @@
+<html>
+  <head>
+  </head>
+
+  <body style="font-family: Helvetica, Sans-Serif; font-size: 18">
+    <header id="header">
+      <h1 id="fneed-h1"> fneed </h1>
+      <p> Do you want to help hungry people eat? </p>
+    </header>
+
+    <form id="help-form">
+      <label for="name">Name</label>
+      <input name="name" type="text">
+      <label for="email">Email</label>
+      <input name="email" type="text">
+    </form>
+
+    <label for="situation"> Message </label>
+    <br>
+    <textarea
+      id="message-textarea"
+      name="message"
+      form="help-form"
+      style="width: 100%">Write a message to those in need...
+    </textarea>
+
+    <br>
+
+    <label for="situation"> Contact Info </label>
+    <br>
+    <textarea
+      id="contact-textarea"
+      name="contact"
+      form="help-form"
+      style="width: 100%">How to get in touch with you...
+    </textarea>
+
+    <br>
+
+    <input type="submit" form="help-form">
+
+  </body>
+</html>
