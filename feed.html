@@ -5,25 +5,24 @@
   <body style="font-family: Helvetica, Sans-Serif; font-size: 18">
     <header id="header">
       <h1 id="fneed-h1"> fneed </h1>
-      <p> Are you hungry? </p>
-      <p> Maybe someone can help! </p>
+      <p> Do you want to help hungry people eat? </p>
     </header>
 
-
-    <form id="hunger-form">
+    <form id="help-form">
       <label for="name">Name</label>
       <input name="name" type="text">
-      <label for="needed-by">Needed By</label>
-      <input name="needed-by" type="date">
+      <br>
+      <label for="email">Email</label>
+      <input name="email" type="text">
     </form>
 
-    <label for="situation"> Situation </label>
+    <label for="situation"> Message </label>
     <br>
     <textarea
-      id="situation-textarea"
-      name="situation"
-      form="hunger-form"
-      style="width: 100%">Describe your situation...
+      id="message-textarea"
+      name="message"
+      form="help-form"
+      style="width: 100%">Write a message to those in need...
     </textarea>
 
     <br>
@@ -33,13 +32,21 @@
     <textarea
       id="contact-textarea"
       name="contact"
-      form="hunger-form"
+      form="help-form"
       style="width: 100%">How to get in touch with you...
     </textarea>
 
     <br>
 
-    <input type="submit" form="hunger-form">
+    <input type="submit" form="help-form">
+
+    <br>
+
+    <footer>
+      <center>
+        <a href="eat.html">Eat</a>
+      </center>
+    </footer>
 
   </body>
 </html>
